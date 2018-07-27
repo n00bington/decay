@@ -1,0 +1,19 @@
+{
+  "name": "option",
+  "version": "1.0.0",
+  "description": "An optional data type similar to Rust's Option.",
+  "main": "./build/index.js",
+  "repository": {},
+  "scripts": {
+    "test": "mocha -r ts-node/register test/**.ts"
+  },
+  "author": "n71",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.5.3",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2"
+  }
+}
