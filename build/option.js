@@ -30,6 +30,7 @@ var Optional = /** @class */ (function () {
     };
     return Optional;
 }());
+exports.Optional = Optional;
 /** Wrapper to make option type more natural. */
 function Option(value, force_none) {
     if (force_none === void 0) { force_none = false; }

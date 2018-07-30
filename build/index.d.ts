@@ -1,4 +1,4 @@
-import { Option } from './option';
-import { Result } from './result';
+import { Option, Optional } from './option';
+import { Result, Resulting } from './result';
 import { UncheckedOptionError, UncheckedResultError } from './errors';
-export { Option, Result, UncheckedOptionError, UncheckedResultError };
+export { Option, Optional, Result, Resulting, UncheckedOptionError, UncheckedResultError };

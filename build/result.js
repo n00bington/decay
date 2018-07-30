@@ -21,6 +21,7 @@ var Resulting = /** @class */ (function () {
     };
     return Resulting;
 }());
+exports.Resulting = Resulting;
 ;
 function Result(val) {
     return new Resulting(val);

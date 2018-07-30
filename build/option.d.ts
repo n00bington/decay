@@ -13,4 +13,4 @@ declare class Optional<T> {
 }
 /** Wrapper to make option type more natural. */
 declare function Option<T>(value?: T | void, force_none?: boolean): Optional<T>;
-export { Option };
+export { Option, Optional };

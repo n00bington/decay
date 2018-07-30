@@ -7,4 +7,4 @@ declare class Resulting<T> {
     unwrap(): T;
 }
 declare function Result<T>(val: Error | T): Resulting<T>;
-export { Result };
+export { Result, Resulting };
