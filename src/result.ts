@@ -37,5 +37,6 @@ function Result<T>(val: Error | T) {
 }
 
 export {
-    Result
+    Result,
+    Resulting
 };

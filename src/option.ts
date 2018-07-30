@@ -49,5 +49,6 @@ function Option<T> (value?: T | void, force_none: boolean = false) {
 }
 
 export { 
-    Option
+    Option,
+    Optional
 };
