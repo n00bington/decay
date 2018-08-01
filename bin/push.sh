@@ -1,0 +1,1 @@
+tsc && git add . && git commit -m "script build" & git push origin HEAD
