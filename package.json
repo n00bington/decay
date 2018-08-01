@@ -1,5 +1,5 @@
 {
-  "name": "option",
+  "name": "decay",
   "version": "1.0.0",
   "description": "An optional data type similar to Rust's Option.",
   "main": "./build/index.js",
